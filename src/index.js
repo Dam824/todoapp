@@ -20,7 +20,7 @@ ReactDOM.render(
     <Routes> 
               
               <Route  path="/" element={<TodoContainer />} />
-              <Route  path="About" element={<About />} /> 
+              <Route  path="/about" element={<About />} /> 
               <Route  path="/about/:slug" element={ <SinglePage /> }/>
               <Route  path="*" element={<NotMatch />} />
 
